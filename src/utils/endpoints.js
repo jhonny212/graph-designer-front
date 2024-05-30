@@ -1,0 +1,9 @@
+export const DASHBOARD = "dashboard"
+export const DASHBOARD_ROW = "dashboardrow"
+export const DIMENSION = "dimension"
+export const ENDPOINT = "endpoint"
+export const ENDPOINT_DETAIL = "endpointdetail"
+export const ENDPOINT_TYPE = `${ENDPOINT}type`
+export const GRAPH = "graph"
+export const GRAPH_TYPE = `${GRAPH}`
+export const OPERATION = 'typeoperation'

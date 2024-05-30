@@ -1,0 +1,28 @@
+.tooltip {
+    text-decoration: none;
+}
+
+.tooltip::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    max-width: 100px;
+    word-wrap: break-word;
+    background-color: red;
+    left: -120px;
+
+    /* Ajusta la posición según sea necesario */
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    
+    /* Ajusta automáticamente el ancho según el contenido */
+    
+    /* Evita el salto de línea */
+}
+
+.tooltip:hover::before {
+    opacity: 1;
+}

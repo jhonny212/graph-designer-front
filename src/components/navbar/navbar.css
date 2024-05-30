@@ -1,0 +1,18 @@
+.dropdrown-dashboards  span {
+    font-size: 16px !important;
+}
+
+.dropdrown-dashboards div {
+    background-color: gray;
+}
+
+.dropdrown-dashboards div {
+    background-color: gray;
+}
+
+
+.navbar-collapse > ul > li:nth-child(1),
+.navbar-collapse > ul > li:nth-child(3) {
+    display: flex;
+    align-items: center;
+}
